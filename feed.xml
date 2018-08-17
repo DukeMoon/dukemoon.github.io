@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2018-08-17T14:55:59+08:00</updated><id>/</id><title type="html">DukeMoon</title><subtitle>一位Python后台开发工程师的博客（Django）</subtitle><entry><title type="html">Write Blog Using Jekyll and GitHub.io!</title><link href="/coding/exp/2018/08/17/write-blog-using-jekyll-and-github.io.html" rel="alternate" type="text/html" title="Write Blog Using Jekyll and GitHub.io!" /><published>2018-08-17T10:10:52+08:00</published><updated>2018-08-17T10:10:52+08:00</updated><id>/coding/exp/2018/08/17/write-blog-using-jekyll-and-github.io</id><content type="html" xml:base="/coding/exp/2018/08/17/write-blog-using-jekyll-and-github.io.html">&lt;h1 id=&quot;win10使用jekyll写个人博客并托管到githubio&quot;&gt;Win10使用jekyll写个人博客并托管到GitHub.io&lt;/h1&gt;
+
+&lt;h2 id=&quot;缘起&quot;&gt;缘起&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;想要搭建自己的个人技术博客，基于GitHub的&lt;a href=&quot;https://pages.github.com/&quot;&gt;GitHub Pages&lt;/a&gt;当然是最好的选择。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;环境&quot;&gt;环境&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;OS 名称&lt;/td&gt;
+      &lt;td&gt;Microsoft Windows 10 专业版&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;系统类型&lt;/td&gt;
+      &lt;td&gt;x64-based PC&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;步骤&quot;&gt;步骤&lt;/h2&gt;
+&lt;p&gt;上Jekyll官方网站查阅&lt;a href=&quot;https://jekyllrb.com/docs/windows/&quot;&gt;Windows使用指南&lt;/a&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://rubyinstaller.org/downloads/&quot;&gt;下载安装Ruby环境&lt;/a&gt;&lt;/p&gt;
+
+    &lt;p&gt;Ruby+Devkit 2.5.1-2 (x64)&lt;/p&gt;
+
+    &lt;p&gt;PS: 检查ruby25/bin是否加入了&lt;a href=&quot;https://baike.baidu.com/item/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F/1730949&quot;&gt;环境变量&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;修改包安装源（不能翻墙的话）&lt;/p&gt;
+
+    &lt;p&gt;$gem sources –remove https://rubygems.org/&lt;/p&gt;
+
+    &lt;p&gt;$gem sources -a https://gems.ruby-china.com/&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;安装Jekyll环境&lt;/p&gt;
+
+    &lt;p&gt;$gem install jekyll bundler&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;使用jekyll创建新项目&lt;/p&gt;
+
+    &lt;p&gt;$jekyll new myblog&lt;/p&gt;
+
+    &lt;p&gt;PS: 初次使用时这里Running bundle install 会卡住很久，我会手动退出，然后进入myblog目录执行$bundle install，会根据Gemfile文件去安装依赖。依赖安装完成后再使用new就很快了。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;运行网页服务器
+ $cd myblog
+ $jekyll serve&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;参考资料&quot;&gt;参考资料&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.lijiaocn.com/%E6%8A%80%E5%B7%A7/2017/05/15/jekyll.html&quot;&gt;jekyll使用手册&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Win10使用jekyll写个人博客并托管到GitHub.io</summary></entry></feed>
